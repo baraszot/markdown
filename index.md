@@ -138,9 +138,13 @@ Cytaty blokowe można zagnieżdżać za pomocą dodatkowego znaku >.
 
 Za pomocą użycia znaku ` z obu stron możemy zaznaczyć elementy, które powinny wyświetlać się na stronie w formie tekstowej. Użycie trzech znaków z obu stron generuje osobny blok tekstu np. na przytaczany kod.
 
+Taki zapis:
+
 ` ```started_in = os.getcwd()
     download_content(terminology_url, terminology_languages)
-    os.chdir(started_in)``` `
+    os.chdir(started_in)``` `,
+
+wyświetli się tak:
 
 ```
 started_in = os.getcwd()
